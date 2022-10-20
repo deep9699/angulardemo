@@ -18,7 +18,9 @@ export class DemoComponent implements OnInit {
   str:string="priyen";
 
   
-  constructor() { }
+  constructor() {
+    console.log("inside constructor");
+   }
   
   onClickeq(){
 
